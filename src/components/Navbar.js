@@ -5,12 +5,12 @@ import Nav from 'react-bootstrap/Nav'
 
 export default function AppNavbar() {
     return (
-        <Navbar bg="light" expand="lg">
-        <Navbar.Brand href="#home">Sample Portfolio</Navbar.Brand>
+        <Navbar bg="dark" variant="dark" expand="lg">
+        <Navbar.Brand href="#home">someBranding.</Navbar.Brand>
             <Nav className="mr-auto">
-                <Nav.Link href="#home">Home</Nav.Link>
-                <Nav.Link href="#link">Link</Nav.Link>
                 <Nav.Link href="#about">About</Nav.Link>
+                <Nav.Link href="#portfolio">Portfolio</Nav.Link>
+                <Nav.Link href="#contact">Contact</Nav.Link>
             </Nav>
         </Navbar>
     )
