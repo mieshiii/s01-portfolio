@@ -10,7 +10,9 @@ export default function AppNavbar() {
             <Nav className="mr-auto">
                 <Nav.Link href="#home">Home</Nav.Link>
                 <Nav.Link href="#link">Link</Nav.Link>
+                <Nav.Link href="#about">About</Nav.Link>
                 <Nav.Link href="#contactus">Contact Us</Nav.Link>
+                <Nav.Link href="#news">News</Nav.Link>
             </Nav>
         </Navbar>
     )
